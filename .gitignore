@@ -4,6 +4,7 @@
 
 *.wasm
 grammars/
+tree-sitter-rue/
 
 #
 # Rust

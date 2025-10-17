@@ -1,0 +1,10 @@
+node_modules
+build
+*.log
+src/parser.c
+src/tree_sitter/
+/build
+/node_modules
+
+/bindings/rust
+/Cargo.toml

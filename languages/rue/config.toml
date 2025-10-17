@@ -1,0 +1,22 @@
+name = "Rue"
+path_suffixes = ["rue"]
+grammar = "rue"
+code_fence_block_name = "rue"
+
+block_comment = ["<!-- ", " -->"]
+
+[brackets]
+{
+  { start = "\"", end = "\"", close = true, newline = false, not_in = ["string", "comment"] },
+  { start = "'", end = "'", close = true, newline = false, not_in = ["string", "comment"] },
+  { start = "{", end = "}", close = true, newline = true },
+  { start = "[", end = "]", close = true, newline = true },
+  { start = "(", end = ")", close = true, newline = true },
+  { start = "<", end = ">", close = true, newline = false },
+}
+
+[word_characters]
+characters = "-_"
+
+[autoclose_before]
+characters = ";:.,=}])>'\" \t\n"

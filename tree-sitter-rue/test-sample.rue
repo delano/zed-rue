@@ -1,0 +1,7 @@
+<schema>
+const x = 1
+</schema>
+
+<template>
+<div>Hello</div>
+</template>

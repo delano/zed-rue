@@ -8,4 +8,4 @@ repository = "https://github.com/delano/zed-rue"
 
 [grammars.rue]
 repository = "https://github.com/delano/tree-sitter-rue"
-commit = "5c3970b597925a296d1cc8e76f5ca935b80b4cd0"
+commit = "77ced86dc74ab05da5e03e7b9cb6fbb8d952e0c7"
